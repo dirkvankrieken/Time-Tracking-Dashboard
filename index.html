@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Time Tracking Dashboard</title>
+	<link href="src/style.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+		rel="stylesheet">
+
+</head>
+
+<body class="flex flex-col h-screen bg-[#0D1323]">
+	<!-- <h1 class="text-white underline">Hello world!</h1> -->
+	<div class="w-80 m-auto grid gap-4 grid-cols-1 md:grid-cols-4 rounded-lg text-white">
+		<div class="flex flex-col row-span-2 rounded-xl bg-[#5746EA]">
+			<div class="p-6 flex justify-between rounded-xl">
+				<img src="images/image-jeremy.png" alt="a photo of Jeremy"
+					class="border-solid border-2 border-white size-16 rounded-full" />
+				<div class="rounded-xl">
+					<span class="text-[#BEB6FF]">
+						Report for
+					</span>
+					<h1>Jeremy Robson</h1>
+				</div>
+			</div>
+			<div class="text-[#646A9E] bg-[#1D204B] flex flex-grow justify-between rounded-xl">
+				<span id="daily" class="p-4 hover:cursor-pointer">Daily</span>
+				<span id="weekly" class="p-4 hover:cursor-pointer">Weekly</span>
+				<span id="monthly" class="p-4 hover:cursor-pointer">Monthly</span>
+			</div>
+
+		</div>
+		<div class=" flex flex-col overflow rounded-xl bg-[#FF8B64]">
+			<div class="w-full rounded-t-xl">
+				<img src=" images/icon-work.svg" alt="icon of work" class="float-right" />
+			</div>
+			<div class="p-5 flex-grow border-solid rounded-xl bg-[#1D204B]">
+				<div class="flex justify-between">
+					<h2>Work</h2>
+					<img src="images/icon-ellipsis.svg" alt="ellipsis" class="h-1.5 self-center">
+				</div>
+				<div id="work-hours">hrs</div>
+				<div id="work-lastwk-hours"></div>
+			</div>
+		</div>
+		<div class="flex flex-col bg-[#5746EA]">
+			<div class="w-full bg-[#FF8B64]">
+
+				<img src="images/icon-play.svg" alt="icon of work" />
+			</div>
+			<div class="flex-grow bg-blue-500">
+				<img src="images/icon-ellipsis.svg" alt="ellipsis">
+
+				Play
+				1hr <!-- daily -->
+				Previous - 2hrs <!-- daily -->
+				10hrs <!-- weekly -->
+				Previous - 8hrs <!-- weekly -->
+				23hrs <!-- monthly -->
+				Previous - 29hrs <!-- monthly -->
+			</div>
+		</div>
+		<div class="bg-[#5746EA]">
+			<img src="images/icon-study.svg" alt="icon of work" />
+			Study
+			0hrs <!-- daily -->
+			Previous - 1hr <!-- daily -->
+			4hrs <!-- weekly -->
+			Previous - 7hrs <!-- weekly -->
+			13hrs <!-- monthly -->
+			Previous - 19hrs <!-- monthly -->
+		</div>
+		<div class="bg-[#5746EA]">
+			<img src="images/icon-exercise.svg" alt="icon of work" />
+			Exercise
+			1hr <!-- daily -->
+			Previous - 1hr <!-- daily -->
+			4hrs <!-- weekly -->
+			Previous - 5hrs <!-- weekly -->
+			11hrs <!-- monthly -->
+			Previous - 18hrs <!-- monthly -->
+		</div>
+		<div class="bg-[#5746EA]">
+			<img src="images/icon-social.svg" alt="icon of work" />
+			Social
+			1hr <!-- daily -->
+			Previous - 3hrs <!-- daily -->
+			5hrs <!-- weekly -->
+			Previous - 10hrs <!-- weekly -->
+			21hrs <!-- monthly -->
+			Previous - 23hrs <!-- monthly -->
+		</div>
+		<div class="bg-[#5746EA]">
+			<img src="images/icon-self-care.svg" alt="icon of work" />
+
+			Self Care
+			0hrs <!-- daily -->
+			Previous - 1hr <!-- daily -->
+			2hrs <!-- weekly -->
+			Previous - 2hrs <!-- weekly -->
+			7hrs <!-- monthly -->
+			Previous - 11hrs <!-- monthly -->
+		</div>
+	</div>
+	<div class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+		Coded by <a href="#">Dirk van Krieken</a>.
+	</div>
+	<script src="src/main.js"></script>
+</body>
+
+</html>
