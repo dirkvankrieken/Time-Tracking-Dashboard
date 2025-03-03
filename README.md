@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -53,7 +53,7 @@ Users should be able to:
 - I learned to use a .json file for data and the javascript fetch api to fetch data from a json file
 - Improved problem solving capabilities by using Google and ChatGPT
 
-### Continued development
+<!-- ### Continued development -->
 
 <!--
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
